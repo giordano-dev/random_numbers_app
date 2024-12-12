@@ -1,5 +1,3 @@
-// widgets/number_list_widget.dart
-
 import 'package:flutter/material.dart';
 import 'package:random_numbers_app/models/number_model.dart';
 

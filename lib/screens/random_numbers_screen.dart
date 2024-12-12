@@ -88,8 +88,8 @@ class _RandomNumbersScreenState extends State<RandomNumbersScreen> {
           ),
           keyboardType: TextInputType.number,
           inputFormatters: [
-            FilteringTextInputFormatter.digitsOnly, // Apenas números
-            LengthLimitingTextInputFormatter(2), // Máximo de 2 dígitos
+            FilteringTextInputFormatter.digitsOnly,
+            LengthLimitingTextInputFormatter(2),
           ],
           onChanged: (value) {
             setState(() {
